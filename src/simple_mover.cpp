@@ -19,7 +19,7 @@ int main(int argc, char** argv)
         start_time = ros::Time::now().toSec();
     }
     
-    while (ros::ok)
+    while (ros::ok())
     {
         elapsed = ros::Time::now().toSec() - start_time;
 
