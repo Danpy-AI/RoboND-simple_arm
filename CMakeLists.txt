@@ -206,5 +206,5 @@ add_dependencies(simple_mover simple_arm_generate_messages_cpp)
 
 add_executable(arm_mover src/arm_mover.cpp)
 target_link_libraries(arm_mover ${catkin_LIBRARIES})
-add_dependencies(arm_mover arm_mover_generate_messages_cpp)
+add_dependencies(arm_mover simple_arm_generate_messages_cpp)
 
